@@ -34,9 +34,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "mickeykim70.github.io",
+    "title": "Curiosior",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "This is a place where curiosity meets knowledge. Explore various topics and expand your understanding."
   },
   {
     "objectID": "about.html",
@@ -44,5 +44,281 @@
     "title": "About",
     "section": "",
     "text": "나만의 호기심과 관심사를 정리하고 기록하고 발전시키기 위한 디지털가든의 역할을 만들고자 함"
+  },
+  {
+    "objectID": "index.html#welcome-to-curiosior",
+    "href": "index.html#welcome-to-curiosior",
+    "title": "Curiosior",
+    "section": "",
+    "text": "This is a place where curiosity meets knowledge. Explore various topics and expand your understanding."
+  },
+  {
+    "objectID": "index.html#featured-topics",
+    "href": "index.html#featured-topics",
+    "title": "Curiosior",
+    "section": "Featured Topics",
+    "text": "Featured Topics\n\n\n\n\n\nQuarto\n\n\n\n\n\n\n\nCuriosities\n\n\n\n\n\n\n\nAbout"
+  },
+  {
+    "objectID": "QUARTO_LEC/01-Hellp, quarto.html",
+    "href": "QUARTO_LEC/01-Hellp, quarto.html",
+    "title": "Hello, Quarto",
+    "section": "",
+    "text": "For a demonstration of a line plot on a polar axis, see 그림 1.\n\n\n코드\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfir, ax = plt.subplots(\n    subplot_kw = {\"projection\": \"polar\"} \n)\n\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\n그림 1: A line plot on a polar axis",
+    "crumbs": [
+      "Quarto",
+      "Hello, Quarto"
+    ]
+  },
+  {
+    "objectID": "QUARTO_LEC/01-Hello quarto.html",
+    "href": "QUARTO_LEC/01-Hello quarto.html",
+    "title": "Hello, Quarto",
+    "section": "",
+    "text": "For a demonstration of a line plot on a polar axis, see 그림 1.\n\n\n코드\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfir, ax = plt.subplots(\n    subplot_kw = {\"projection\": \"polar\"} \n)\n\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\n그림 1: A line plot on a polar axis\n\n\n\n\n\n주피터 노트북의 셀을 실행시키고 결과를 같이 보여줄 수 있어서 책 형태의 출판에 유리하다.",
+    "crumbs": [
+      "Quarto",
+      "Hello, Quarto"
+    ]
+  },
+  {
+    "objectID": "QUARTO_LEC/02-Computations/02-Computations.html",
+    "href": "QUARTO_LEC/02-Computations/02-Computations.html",
+    "title": "Computations",
+    "section": "",
+    "text": "test",
+    "crumbs": [
+      "Quarto",
+      "02 Computations",
+      "Computations"
+    ]
+  },
+  {
+    "objectID": "QUARTO_LEC/01-Basic/01-Hello quarto.html",
+    "href": "QUARTO_LEC/01-Basic/01-Hello quarto.html",
+    "title": "Hello, Quarto",
+    "section": "",
+    "text": "For a demonstration of a line plot on a polar axis, see 그림 1.\n\n\n코드\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfir, ax = plt.subplots(\n    subplot_kw = {\"projection\": \"polar\"} \n)\n\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\n그림 1: A line plot on a polar axis\n\n\n\n\n\n주피터 노트북의 셀을 실행시키고 결과를 같이 보여줄 수 있어서 책 형태의 출판에 유리하다.",
+    "crumbs": [
+      "Quarto",
+      "01 Basic",
+      "Hello, Quarto"
+    ]
+  },
+  {
+    "objectID": "QUARTO_LEC/01-Basic/02-Computations.html",
+    "href": "QUARTO_LEC/01-Basic/02-Computations.html",
+    "title": "Quarto Computations",
+    "section": "",
+    "text": "import numpy as np\na = np.arange(15).reshape(3, 5)\na\n\narray([[ 0,  1,  2,  3,  4],\n       [ 5,  6,  7,  8,  9],\n       [10, 11, 12, 13, 14]])",
+    "crumbs": [
+      "Quarto",
+      "01 Basic",
+      "Quarto Computations"
+    ]
+  },
+  {
+    "objectID": "QUARTO_LEC/01-Basic/02-Computations.html#numpy",
+    "href": "QUARTO_LEC/01-Basic/02-Computations.html#numpy",
+    "title": "Quarto Computations",
+    "section": "",
+    "text": "import numpy as np\na = np.arange(15).reshape(3, 5)\na\n\narray([[ 0,  1,  2,  3,  4],\n       [ 5,  6,  7,  8,  9],\n       [10, 11, 12, 13, 14]])",
+    "crumbs": [
+      "Quarto",
+      "01 Basic",
+      "Quarto Computations"
+    ]
+  },
+  {
+    "objectID": "QUARTO_LEC/01-Basic/02-Computations.html#matplotlib",
+    "href": "QUARTO_LEC/01-Basic/02-Computations.html#matplotlib",
+    "title": "Quarto Computations",
+    "section": "Matplotlib",
+    "text": "Matplotlib\n\nimport matplotlib.pyplot as plt\n\nfig = plt.figure()\nx = np.arange(10)\ny = 2.5 * np.sin(x / 20 * np.pi)\nyerr = np.linspace(0.05, 0.2, 10)\n\nplt.errorbar(x, y + 3, yerr=yerr, label='both limits (default)')\nplt.errorbar(x, y + 2, yerr=yerr, uplims=True, label='uplims=True')\nplt.errorbar(x, y + 1, yerr=yerr, uplims=True, lolims=True,\n             label='uplims=True, lolims=True')\n\nupperlimits = [True, False] * 5\nlowerlimits = [False, True] * 5\nplt.errorbar(x, y, yerr=yerr, uplims=upperlimits, lolims=lowerlimits,\n             label='subsets of uplims and lolims')\n\nplt.legend(loc='lower right')\nplt.show(fig)",
+    "crumbs": [
+      "Quarto",
+      "01 Basic",
+      "Quarto Computations"
+    ]
+  },
+  {
+    "objectID": "QUARTO_LEC/01-Basic/02-Computations.html#numpy-1",
+    "href": "QUARTO_LEC/01-Basic/02-Computations.html#numpy-1",
+    "title": "Computations",
+    "section": "NumPy",
+    "text": "NumPy\n\n\n코드\nimport numpy as np\na = np.arange(15).reshape(3, 5)\na\n\n\narray([[ 0,  1,  2,  3,  4],\n       [ 5,  6,  7,  8,  9],\n       [10, 11, 12, 13, 14]])",
+    "crumbs": [
+      "Quarto",
+      "01 Basic",
+      "Quarto Computations"
+    ]
+  },
+  {
+    "objectID": "QUARTO_LEC/01-Basic/02-Computations.html#matplotlib-1",
+    "href": "QUARTO_LEC/01-Basic/02-Computations.html#matplotlib-1",
+    "title": "Computations",
+    "section": "Matplotlib",
+    "text": "Matplotlib\n\n\n코드\nimport matplotlib.pyplot as plt\n\nfig = plt.figure()\nx = np.arange(10)\ny = 2.5 * np.sin(x / 20 * np.pi)\nyerr = np.linspace(0.05, 0.2, 10)\n\nplt.errorbar(x, y + 3, yerr=yerr, label='both limits (default)')\nplt.errorbar(x, y + 2, yerr=yerr, uplims=True, label='uplims=True')\nplt.errorbar(x, y + 1, yerr=yerr, uplims=True, lolims=True,\n             label='uplims=True, lolims=True')\n\nupperlimits = [True, False] * 5\nlowerlimits = [False, True] * 5\nplt.errorbar(x, y, yerr=yerr, uplims=upperlimits, lolims=lowerlimits,\n             label='subsets of uplims and lolims')\n\nplt.legend(loc='lower right')\nplt.show(fig)",
+    "crumbs": [
+      "Quarto",
+      "01 Basic",
+      "Quarto Computations"
+    ]
+  },
+  {
+    "objectID": "QUARTO_LEC/01-Basic/02-Computations.html#plotly",
+    "href": "QUARTO_LEC/01-Basic/02-Computations.html#plotly",
+    "title": "Quarto Computations",
+    "section": "Plotly",
+    "text": "Plotly\n\nimport plotly.express as px\nimport plotly.io as pio\ngapminder = px.data.gapminder()\ngapminder2007 = gapminder.query(\"year == 2007\")\nfig = px.scatter(gapminder2007, \n                 x=\"gdpPercap\", y=\"lifeExp\", color=\"continent\", \n                 size=\"pop\", size_max=60,\n                 hover_name=\"country\")\nfig.show()",
+    "crumbs": [
+      "Quarto",
+      "01 Basic",
+      "Quarto Computations"
+    ]
+  },
+  {
+    "objectID": "QUARTO_LEC/01-Basic/03-Authoring.html",
+    "href": "QUARTO_LEC/01-Basic/03-Authoring.html",
+    "title": "Quarto Authoring",
+    "section": "",
+    "text": "Red\nGreen\nBlue",
+    "crumbs": [
+      "Quarto",
+      "01 Basic",
+      "Quarto Authoring"
+    ]
+  },
+  {
+    "objectID": "QUARTO_LEC/01-Basic/03-Authoring.html#colors",
+    "href": "QUARTO_LEC/01-Basic/03-Authoring.html#colors",
+    "title": "Quarto Authoring",
+    "section": "",
+    "text": "Red\nGreen\nBlue",
+    "crumbs": [
+      "Quarto",
+      "01 Basic",
+      "Quarto Authoring"
+    ]
+  },
+  {
+    "objectID": "QUARTO_LEC/01-Basic/03-Authoring.html#shapes",
+    "href": "QUARTO_LEC/01-Basic/03-Authoring.html#shapes",
+    "title": "Quarto Authoring",
+    "section": "2 Shapes",
+    "text": "2 Shapes\n\nSquare\nCircle\nTriangle",
+    "crumbs": [
+      "Quarto",
+      "01 Basic",
+      "Quarto Authoring"
+    ]
+  },
+  {
+    "objectID": "QUARTO_LEC/01-Basic/03-Authoring.html#textures",
+    "href": "QUARTO_LEC/01-Basic/03-Authoring.html#textures",
+    "title": "Quarto Authoring",
+    "section": "3 Textures",
+    "text": "3 Textures\n\nSmooth\nBumpy\nFuzzy",
+    "crumbs": [
+      "Quarto",
+      "01 Basic",
+      "Quarto Authoring"
+    ]
+  },
+  {
+    "objectID": "QUARTO_LEC/01-Basic/03-Authoring.html#eqautions",
+    "href": "QUARTO_LEC/01-Basic/03-Authoring.html#eqautions",
+    "title": "Quarto Authoring",
+    "section": "4 Eqautions",
+    "text": "4 Eqautions\nEinstein’s theory of special relatively that expresses the equivalence of mass and energy:",
+    "crumbs": [
+      "Quarto",
+      "01 Basic",
+      "Quarto Authoring"
+    ]
+  },
+  {
+    "objectID": "QUARTO_LEC/01-Basic/03-Authoring.html#e-mc2",
+    "href": "QUARTO_LEC/01-Basic/03-Authoring.html#e-mc2",
+    "title": "Quarto Authoring",
+    "section": "5 \\[ E = mc^{2} \\]",
+    "text": "5 \\[ E = mc^{2} \\]",
+    "crumbs": [
+      "Quarto",
+      "01 Basic",
+      "Quarto Authoring"
+    ]
+  },
+  {
+    "objectID": "QUARTO_LEC/01-Basic/04-Equation.html",
+    "href": "QUARTO_LEC/01-Basic/04-Equation.html",
+    "title": "Equations",
+    "section": "",
+    "text": "Einstein’s theory of special relatively that expresses the equivalence of mass and energy:",
+    "crumbs": [
+      "Quarto",
+      "01 Basic",
+      "Equations"
+    ]
+  },
+  {
+    "objectID": "QUARTO_LEC/01-Basic/04-Equation.html#eqautions",
+    "href": "QUARTO_LEC/01-Basic/04-Equation.html#eqautions",
+    "title": "Equations",
+    "section": "",
+    "text": "Einstein’s theory of special relatively that expresses the equivalence of mass and energy:",
+    "crumbs": [
+      "Quarto",
+      "01 Basic",
+      "Equations"
+    ]
+  },
+  {
+    "objectID": "QUARTO_LEC/01-Basic/04-Equation.html#e-mc2",
+    "href": "QUARTO_LEC/01-Basic/04-Equation.html#e-mc2",
+    "title": "Equations",
+    "section": "\\[ E = mc^{2} \\]",
+    "text": "\\[ E = mc^{2} \\]",
+    "crumbs": [
+      "Quarto",
+      "01 Basic",
+      "Equations"
+    ]
+  },
+  {
+    "objectID": "QUARTO_LEC/01-Basic/04-Equation.html#bibliography",
+    "href": "QUARTO_LEC/01-Basic/04-Equation.html#bibliography",
+    "title": "Equations",
+    "section": "Bibliography",
+    "text": "Bibliography\nKnuth says always be literate [@knuth1984].\n\n1 + 1\n\n2",
+    "crumbs": [
+      "Quarto",
+      "01 Basic",
+      "Equations"
+    ]
+  },
+  {
+    "objectID": "QUARTO_LEC/01-Basic/04-Equation.html#overview",
+    "href": "QUARTO_LEC/01-Basic/04-Equation.html#overview",
+    "title": "Equations",
+    "section": "Overview",
+    "text": "Overview\nKnuth says always be literate [@knuth1984].\n\n1 + 1\n\n2",
+    "crumbs": [
+      "Quarto",
+      "01 Basic",
+      "Equations"
+    ]
+  },
+  {
+    "objectID": "QUARTO_LEC/01-Basic/04-Equation.html#references",
+    "href": "QUARTO_LEC/01-Basic/04-Equation.html#references",
+    "title": "Equations",
+    "section": "References",
+    "text": "References",
+    "crumbs": [
+      "Quarto",
+      "01 Basic",
+      "Equations"
+    ]
   }
 ]

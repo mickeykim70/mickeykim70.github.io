@@ -1,7 +1,33 @@
 ---
-title: "mickeykim70.github.io"
+title: "Curiosior"
+page-layout: full
+toc: false
 ---
 
-This is a Quarto website.
+::: {.grid}
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+::: {.g-col-12 .g-col-md-6}
+## Welcome to Curiosior
+
+This is a place where curiosity meets knowledge. Explore various topics and expand your understanding.
+:::
+
+::: {.g-col-12 .g-col-md-6}
+![](https://via.placeholder.com/400x300)
+:::
+
+:::
+
+## Featured Topics
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-4}
+![Quarto](https://via.placeholder.com/300x200)
+:::
+::: {.g-col-12 .g-col-md-4}
+![Curiosities](https://via.placeholder.com/300x200)
+:::
+::: {.g-col-12 .g-col-md-4}
+![About](https://via.placeholder.com/300x200)
+:::
+:::

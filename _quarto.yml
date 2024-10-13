@@ -20,7 +20,7 @@ website:
       contents: 
         - section: "Quarto"
           contents: 
-            - auto: "QUARTO_LEC/*.qmd"
+            - auto: "QUARTO_LEC/**/*.qmd"
 
     - id: curiosities
       title: "Curiosities"
@@ -29,16 +29,18 @@ website:
       contents: 
         - section: "Curiosities"
           contents: 
-            - auto: "CURIO/*.qmd"
+            - auto: "CURIO/**/*.qmd"
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
+    page-layout: full
+    include-in-header: 
+      text: '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">'
 
 lang: ko
-
 
 
 

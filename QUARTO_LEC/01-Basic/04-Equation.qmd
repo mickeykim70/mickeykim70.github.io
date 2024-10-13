@@ -1,0 +1,16 @@
+---
+title: Equations
+format: 
+    html: 
+        code-fold: false
+jupyter: python3
+---
+
+<!-- ## Eqautions -->
+
+Einstein's theory of special relatively that expresses the equivalence of mass and energy:
+
+## $$ E = mc^{2} $$
+
+
+
