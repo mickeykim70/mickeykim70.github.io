@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "나만의 호기심과 관심사를 정리하고 기록하고 발전시키기 위한 디지털가든의 역할을 만들고자 함"
   },
   {
     "objectID": "index.html",
@@ -12,5 +12,80 @@
     "title": "mickeykim70.github.io",
     "section": "",
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "LECTURE.html",
+    "href": "LECTURE.html",
+    "title": "Quarto landing page",
+    "section": "",
+    "text": "introduce Quarto"
+  },
+  {
+    "objectID": "QUARTO.html",
+    "href": "QUARTO.html",
+    "title": "Quarto?",
+    "section": "",
+    "text": "주피터 노트북, 파이썬, R, Julia, Observable 등을 이용한 동적 콘텐츠 생성\nHTML, PDF, MS WORD, ePUB 등 출판물에 최적화\nPandoc 마크다운을 사용하므로 수학, 과학 등의 출판에 최적화"
+  },
+  {
+    "objectID": "QUARTO_LEC/01-intro.html",
+    "href": "QUARTO_LEC/01-intro.html",
+    "title": "Toward a Unified Theory of High-Energy Metaphysics: Silly String Theory",
+    "section": "",
+    "text": "라이센스CC BY 4.0인용BibTeX 인용:@online{carberry2008,\n  author = {Carberry, Josiah},\n  title = {Toward a Unified Theory of High-Energy Metaphysics: Silly\n    String Theory},\n  volume = {1},\n  number = {1},\n  date = {2008-02-29},\n  doi = {10.5555/12345678},\n  langid = {ko},\n  abstract = {The characteristic theme of the works of Stone is the\n    bridge between culture and society. ...}\n}\n인용방법\nCarberry, Josiah. 2008. “Toward a Unified Theory of High-Energy\nMetaphysics: Silly String Theory.” Journal of Psychoceramics.\nFebruary 29, 2008. https://doi.org/10.5555/12345678.",
+    "crumbs": [
+      "Quarto",
+      "Toward a Unified Theory of High-Energy Metaphysics: Silly String Theory"
+    ]
+  },
+  {
+    "objectID": "CURIO/01-concerns.html",
+    "href": "CURIO/01-concerns.html",
+    "title": "my concerns",
+    "section": "",
+    "text": "나만의 관심사에 대한 1번째 내용",
+    "crumbs": [
+      "Curiosities",
+      "my concerns"
+    ]
+  },
+  {
+    "objectID": "\bCURIO.html",
+    "href": "\bCURIO.html",
+    "title": "Curiosities",
+    "section": "",
+    "text": "나만의 관심사에 대해 적어 놓는다"
+  },
+  {
+    "objectID": "\bCURIOS.html",
+    "href": "\bCURIOS.html",
+    "title": "Curiosities",
+    "section": "",
+    "text": "나만의 관심사에 대해 적어 놓는다"
+  },
+  {
+    "objectID": "CURIOS.html",
+    "href": "CURIOS.html",
+    "title": "Curiosities",
+    "section": "",
+    "text": "나만의 관심사에 대해 적어 놓는다"
+  },
+  {
+    "objectID": "QUARTO.html#markdown-basics",
+    "href": "QUARTO.html#markdown-basics",
+    "title": "Quarto?",
+    "section": "Markdown Basics",
+    "text": "Markdown Basics"
+  },
+  {
+    "objectID": "QUARTO_LEC/01-intro.html#footnotes",
+    "href": "QUARTO_LEC/01-intro.html#footnotes",
+    "title": "01. Markdown for Quarto",
+    "section": "각주",
+    "text": "각주\n\n\nHere is the footnote.↩︎\nHere’s one with multiple blocks.\nSubsequent paragraphs are indented to show that they belong to the previous footnote.\n{ some.code }\nThe whole paragraph can be indented, or just the first line. In this way, multi-paragraph footnotes work like multi-paragraph list items.↩︎\nInlines notes are easier to write, since you don’t have to pick an identifier and move down to type the note.↩︎",
+    "crumbs": [
+      "Quarto",
+      "01. Markdown for Quarto"
+    ]
   }
 ]

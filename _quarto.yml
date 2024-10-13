@@ -3,12 +3,33 @@ project:
   output-dir: docs
 
 website:
-  title: "mickeykim70.github.io"
+  title: "Curiosior"
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
+    right:
+      - href: QUARTO.qmd
+        text: Quarto
+      - href: CURIOS.qmd
+        text: Curiosities
       - about.qmd
+
+  sidebar: 
+    - id: quarto
+      title: "Quarto"
+      style: "docked"
+      search: true
+      contents: 
+        - section: "Quarto"
+          contents: 
+            - auto: "QUARTO_LEC/*.qmd"
+
+    - id: curiosities
+      title: "Curiosities"
+      style: "docked"
+      search: true
+      contents: 
+        - section: "Curiosities"
+          contents: 
+            - auto: "CURIO/*.qmd"
 
 format:
   html:

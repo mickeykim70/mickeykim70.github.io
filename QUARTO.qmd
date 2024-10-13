@@ -1,0 +1,13 @@
+---
+title: Quarto?
+sidebar: quarto
+---
+
+### 과학 및 기술 출판 시스템
+- 주피터 노트북, 파이썬, R, Julia, Observable 등을 이용한 동적 콘텐츠 생성
+- HTML, PDF, MS WORD, ePUB 등 출판물에 최적화
+- [Pandoc](https://pandoc.org/) 마크다운을 사용하므로 수학, 과학 등의 출판에 최적화
+
+#### 기존 마크다운과 차이가 조금 있으니 자세한 내용은 아래 참고
+
+## [Markdown Basics](https://quarto.org/docs/authoring/markdown-basics.html)

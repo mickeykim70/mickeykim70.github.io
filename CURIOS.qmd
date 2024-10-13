@@ -1,0 +1,7 @@
+---
+title: Curiosities
+sidebar: curiosities
+---
+
+나만의 관심사에 대해 적어 놓는다
+
