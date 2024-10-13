@@ -274,5 +274,36 @@
     "title": "About",
     "section": "",
     "text": "나만의 호기심과 관심사를 정리하고 기록하고 발전시키기 위한 디지털가든의 역할을 만들고자 함"
+  },
+  {
+    "objectID": "QUARTO_LEC/01-Basic/08-libraries.html",
+    "href": "QUARTO_LEC/01-Basic/08-libraries.html",
+    "title": "Libraries",
+    "section": "",
+    "text": "There",
+    "crumbs": [
+      "Quarto",
+      "01 Basic",
+      "Libraries"
+    ]
+  },
+  {
+    "objectID": "QUARTO_LEC/01-Basic/08-libraries.html#overview",
+    "href": "QUARTO_LEC/01-Basic/08-libraries.html#overview",
+    "title": "Libraries",
+    "section": "",
+    "text": "There",
+    "crumbs": [
+      "Quarto",
+      "01 Basic",
+      "Libraries"
+    ]
+  },
+  {
+    "objectID": "QUARTO_LEC/01-Basic/09-palmer-penguin.html",
+    "href": "QUARTO_LEC/01-Basic/09-palmer-penguin.html",
+    "title": "Palmer Penguins",
+    "section": "",
+    "text": "import pandas as pd\ndf = pd.read_csv()\n\n\n---------------------------------------------------------------------------\nTypeError                                 Traceback (most recent call last)\nCell In[1], line 2\n      1 import pandas as pd\n----&gt; 2 df = pd.read_csv()\n\nTypeError: read_csv() missing 1 required positional argument: 'filepath_or_buffer'"
   }
 ]
