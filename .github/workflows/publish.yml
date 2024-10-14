@@ -24,12 +24,15 @@ jobs:
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install jupyter matplotlib pandas plotly
+          pip install jupyter matplotlib pandas plotly sympy
 
       - name: Render Quarto Project
         uses: quarto-dev/quarto-actions/render@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Deploy to GitHub Pages
+        if: success()
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
