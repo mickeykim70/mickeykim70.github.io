@@ -1,0 +1,31 @@
+---
+title: Sympy part 1
+format: 
+    html: 
+        code-fold: false
+toc: true
+toc-location: right
+jupyter: python3
+---
+
+Symbolic(기호)과 Numerical(숫자) 연산의 차이에 대해 생각해 보자
+
+| Symbolic | Numerical Value(정확도) |
+|:--------:|:----------------------:|
+| $\sqrt{2}$ | 1.414213562373095 |
+| $\pi$ | 3.141592653589793 |
+| $\cos{(\frac{\pi}{2})} = 0$ | 6.123233995736766e-17 |
+
+```{python}
+import sympy as sym
+```
+
+```{python}
+x, y = sym.symbols("x, y")
+x
+```
+
+```{python}
+y+4
+```
+

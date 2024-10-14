@@ -1,0 +1,7 @@
+---
+title: MATH LECTURE
+sidebar: math
+---
+
+### 수학에 관한 재미있는 강의가 있으면 소개하는 섹션
+

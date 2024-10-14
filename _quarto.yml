@@ -8,6 +8,8 @@ website:
     right:
       - href: QUARTO.qmd
         text: Quarto
+      - href: MATH.qmd
+        text: Math
       - href: CURIOS.qmd
         text: Curiosities
       - about.qmd
@@ -21,6 +23,15 @@ website:
         - section: "Quarto"
           contents: 
             - auto: "QUARTO_LEC/**/*.qmd"
+
+    - id: math
+      title: "Math"
+      style: "docked"
+      search: true
+      contents: 
+        - section: "Math"
+          contents: 
+            - auto: "MATH_LEC/**/*.qmd"
 
     - id: curiosities
       title: "Curiosities"
@@ -36,6 +47,7 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
+    toc-location: right
     page-layout: full
     include-in-header: 
       text: '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">'
