@@ -1,0 +1,298 @@
+[
+  {
+    "objectID": "CURIOS.html",
+    "href": "CURIOS.html",
+    "title": "Curiosities",
+    "section": "",
+    "text": "나만의 관심사에 대해 적어 놓는다"
+  },
+  {
+    "objectID": "QUARTO.html",
+    "href": "QUARTO.html",
+    "title": "Quarto?",
+    "section": "",
+    "text": "주피터 노트북, 파이썬, R, Julia, Observable 등을 이용한 동적 콘텐츠 생성\nHTML, PDF, MS WORD, ePUB 등 출판물에 최적화\nPandoc 마크다운을 사용하므로 수학, 과학 등의 출판에 최적화"
+  },
+  {
+    "objectID": "QUARTO.html#markdown-basics",
+    "href": "QUARTO.html#markdown-basics",
+    "title": "Quarto?",
+    "section": "Markdown Basics",
+    "text": "Markdown Basics"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "나만의 호기심과 관심사를 정리하고 기록하고 발전시키기 위한 디지털가든의 역할을 만들고자 함"
+  },
+  {
+    "objectID": "CURIO/01-concerns.html",
+    "href": "CURIO/01-concerns.html",
+    "title": "my concerns",
+    "section": "",
+    "text": "나만의 관심사에 대한 1번째 내용",
+    "crumbs": [
+      "Curiosities",
+      "my concerns"
+    ]
+  },
+  {
+    "objectID": "QUARTO_LEC/01-Basic/02-Computations.html",
+    "href": "QUARTO_LEC/01-Basic/02-Computations.html",
+    "title": "Quarto Computations",
+    "section": "",
+    "text": "import numpy as np\na = np.arange(15).reshape(3, 5)\na\n\narray([[ 0,  1,  2,  3,  4],\n       [ 5,  6,  7,  8,  9],\n       [10, 11, 12, 13, 14]])",
+    "crumbs": [
+      "Quarto",
+      "01 Basic",
+      "Quarto Computations"
+    ]
+  },
+  {
+    "objectID": "QUARTO_LEC/01-Basic/02-Computations.html#numpy",
+    "href": "QUARTO_LEC/01-Basic/02-Computations.html#numpy",
+    "title": "Quarto Computations",
+    "section": "",
+    "text": "import numpy as np\na = np.arange(15).reshape(3, 5)\na\n\narray([[ 0,  1,  2,  3,  4],\n       [ 5,  6,  7,  8,  9],\n       [10, 11, 12, 13, 14]])",
+    "crumbs": [
+      "Quarto",
+      "01 Basic",
+      "Quarto Computations"
+    ]
+  },
+  {
+    "objectID": "QUARTO_LEC/01-Basic/02-Computations.html#matplotlib",
+    "href": "QUARTO_LEC/01-Basic/02-Computations.html#matplotlib",
+    "title": "Quarto Computations",
+    "section": "Matplotlib",
+    "text": "Matplotlib\n\nimport matplotlib.pyplot as plt\n\nfig = plt.figure()\nx = np.arange(10)\ny = 2.5 * np.sin(x / 20 * np.pi)\nyerr = np.linspace(0.05, 0.2, 10)\n\nplt.errorbar(x, y + 3, yerr=yerr, label='both limits (default)')\nplt.errorbar(x, y + 2, yerr=yerr, uplims=True, label='uplims=True')\nplt.errorbar(x, y + 1, yerr=yerr, uplims=True, lolims=True,\n             label='uplims=True, lolims=True')\n\nupperlimits = [True, False] * 5\nlowerlimits = [False, True] * 5\nplt.errorbar(x, y, yerr=yerr, uplims=upperlimits, lolims=lowerlimits,\n             label='subsets of uplims and lolims')\n\nplt.legend(loc='lower right')\nplt.show(fig)",
+    "crumbs": [
+      "Quarto",
+      "01 Basic",
+      "Quarto Computations"
+    ]
+  },
+  {
+    "objectID": "QUARTO_LEC/01-Basic/02-Computations.html#plotly",
+    "href": "QUARTO_LEC/01-Basic/02-Computations.html#plotly",
+    "title": "Quarto Computations",
+    "section": "Plotly",
+    "text": "Plotly\n\nimport plotly.express as px\nimport plotly.io as pio\ngapminder = px.data.gapminder()\ngapminder2007 = gapminder.query(\"year == 2007\")\nfig = px.scatter(gapminder2007, \n                 x=\"gdpPercap\", y=\"lifeExp\", color=\"continent\", \n                 size=\"pop\", size_max=60,\n                 hover_name=\"country\")\nfig.show()",
+    "crumbs": [
+      "Quarto",
+      "01 Basic",
+      "Quarto Computations"
+    ]
+  },
+  {
+    "objectID": "QUARTO_LEC/01-Basic/03-Authoring.html",
+    "href": "QUARTO_LEC/01-Basic/03-Authoring.html",
+    "title": "Quarto Authoring",
+    "section": "",
+    "text": "Red\nGreen\nBlue",
+    "crumbs": [
+      "Quarto",
+      "01 Basic",
+      "Quarto Authoring"
+    ]
+  },
+  {
+    "objectID": "QUARTO_LEC/01-Basic/03-Authoring.html#colors",
+    "href": "QUARTO_LEC/01-Basic/03-Authoring.html#colors",
+    "title": "Quarto Authoring",
+    "section": "",
+    "text": "Red\nGreen\nBlue",
+    "crumbs": [
+      "Quarto",
+      "01 Basic",
+      "Quarto Authoring"
+    ]
+  },
+  {
+    "objectID": "QUARTO_LEC/01-Basic/03-Authoring.html#shapes",
+    "href": "QUARTO_LEC/01-Basic/03-Authoring.html#shapes",
+    "title": "Quarto Authoring",
+    "section": "2 Shapes",
+    "text": "2 Shapes\n\nSquare\nCircle\nTriangle",
+    "crumbs": [
+      "Quarto",
+      "01 Basic",
+      "Quarto Authoring"
+    ]
+  },
+  {
+    "objectID": "QUARTO_LEC/01-Basic/03-Authoring.html#textures",
+    "href": "QUARTO_LEC/01-Basic/03-Authoring.html#textures",
+    "title": "Quarto Authoring",
+    "section": "3 Textures",
+    "text": "3 Textures\n\nSmooth\nBumpy\nFuzzy",
+    "crumbs": [
+      "Quarto",
+      "01 Basic",
+      "Quarto Authoring"
+    ]
+  },
+  {
+    "objectID": "QUARTO_LEC/01-Basic/06-CallOut.html",
+    "href": "QUARTO_LEC/01-Basic/06-CallOut.html",
+    "title": "Callout",
+    "section": "",
+    "text": "노트\n\n\n\nNote that there are five types of callouts, including: note, tip, warning, caution and important",
+    "crumbs": [
+      "Quarto",
+      "01 Basic",
+      "Callout"
+    ]
+  },
+  {
+    "objectID": "QUARTO_LEC/01-Basic/07-article layout.html",
+    "href": "QUARTO_LEC/01-Basic/07-article layout.html",
+    "title": "Quarto Layout",
+    "section": "",
+    "text": "Colorbars indicate the quantitative extent of image data. Placing in a figure is non-trivial because room needs to be made for them. The simplest case is just attaching a colorbar to each axes:1.\n1 See the Matplotlib Gallery to explore colorbars further\n\n코드\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nfig, axs = plt.subplots(2, 2)\nfig.set_size_inches(20, 8)\ncmaps = ['RdBu_r', 'viridis']\nfor col in range(2):\n    for row in range(2):\n        ax = axs[row, col]\n        pcm = ax.pcolormesh(\n          np.random.random((20, 20)) * (col + 1),\n          cmap=cmaps[col]\n        )\n        fig.colorbar(pcm, ax=ax)\nplt.show()",
+    "crumbs": [
+      "Quarto",
+      "01 Basic",
+      "Quarto Layout"
+    ]
+  },
+  {
+    "objectID": "QUARTO_LEC/01-Basic/07-article layout.html#placing-colorbars",
+    "href": "QUARTO_LEC/01-Basic/07-article layout.html#placing-colorbars",
+    "title": "Quarto Layout",
+    "section": "",
+    "text": "Colorbars indicate the quantitative extent of image data. Placing in a figure is non-trivial because room needs to be made for them. The simplest case is just attaching a colorbar to each axes:1.\n1 See the Matplotlib Gallery to explore colorbars further\n\n코드\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nfig, axs = plt.subplots(2, 2)\nfig.set_size_inches(20, 8)\ncmaps = ['RdBu_r', 'viridis']\nfor col in range(2):\n    for row in range(2):\n        ax = axs[row, col]\n        pcm = ax.pcolormesh(\n          np.random.random((20, 20)) * (col + 1),\n          cmap=cmaps[col]\n        )\n        fig.colorbar(pcm, ax=ax)\nplt.show()",
+    "crumbs": [
+      "Quarto",
+      "01 Basic",
+      "Quarto Layout"
+    ]
+  },
+  {
+    "objectID": "QUARTO_LEC/01-Basic/01-Hello quarto.html",
+    "href": "QUARTO_LEC/01-Basic/01-Hello quarto.html",
+    "title": "Hello, Quarto",
+    "section": "",
+    "text": "For a demonstration of a line plot on a polar axis, see 그림 1.\n\n\n코드\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfir, ax = plt.subplots(\n    subplot_kw = {\"projection\": \"polar\"} \n)\n\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\n그림 1: A line plot on a polar axis\n\n\n\n\n\n주피터 노트북의 셀을 실행시키고 결과를 같이 보여줄 수 있어서 책 형태의 출판에 유리하다.",
+    "crumbs": [
+      "Quarto",
+      "01 Basic",
+      "Hello, Quarto"
+    ]
+  },
+  {
+    "objectID": "QUARTO_LEC/01-Basic/04-Equation.html",
+    "href": "QUARTO_LEC/01-Basic/04-Equation.html",
+    "title": "Equations",
+    "section": "",
+    "text": "Einstein’s theory of special relatively that expresses the equivalence of mass and energy:",
+    "crumbs": [
+      "Quarto",
+      "01 Basic",
+      "Equations"
+    ]
+  },
+  {
+    "objectID": "QUARTO_LEC/01-Basic/04-Equation.html#e-mc2",
+    "href": "QUARTO_LEC/01-Basic/04-Equation.html#e-mc2",
+    "title": "Equations",
+    "section": "\\[ E = mc^{2} \\]",
+    "text": "\\[ E = mc^{2} \\]",
+    "crumbs": [
+      "Quarto",
+      "01 Basic",
+      "Equations"
+    ]
+  },
+  {
+    "objectID": "QUARTO_LEC/01-Basic/05-Cross Reference.html",
+    "href": "QUARTO_LEC/01-Basic/05-Cross Reference.html",
+    "title": "Cross Reference",
+    "section": "",
+    "text": "See 그림 1 in 섹션 2 for a demonstration of a simple plot.\nSee 방정식 1 to better understand standard deviation.",
+    "crumbs": [
+      "Quarto",
+      "01 Basic",
+      "Cross Reference"
+    ]
+  },
+  {
+    "objectID": "QUARTO_LEC/01-Basic/05-Cross Reference.html#overview",
+    "href": "QUARTO_LEC/01-Basic/05-Cross Reference.html#overview",
+    "title": "Cross Reference",
+    "section": "",
+    "text": "See 그림 1 in 섹션 2 for a demonstration of a simple plot.\nSee 방정식 1 to better understand standard deviation.",
+    "crumbs": [
+      "Quarto",
+      "01 Basic",
+      "Cross Reference"
+    ]
+  },
+  {
+    "objectID": "QUARTO_LEC/01-Basic/05-Cross Reference.html#sec-plot",
+    "href": "QUARTO_LEC/01-Basic/05-Cross Reference.html#sec-plot",
+    "title": "Cross Reference",
+    "section": "Plot",
+    "text": "Plot\n\nimport matplotlib.pyplot as plt\nplt.plot([1,23,2,4])\nplt.show()\n\n\n\n\n\n\n\n그림 1: Simple Plot",
+    "crumbs": [
+      "Quarto",
+      "01 Basic",
+      "Cross Reference"
+    ]
+  },
+  {
+    "objectID": "QUARTO_LEC/01-Basic/05-Cross Reference.html#sec-equation",
+    "href": "QUARTO_LEC/01-Basic/05-Cross Reference.html#sec-equation",
+    "title": "Cross Reference",
+    "section": "Equation",
+    "text": "Equation\n\\[\ns = \\sqrt{\\frac{1}{N-1} \\sum_{i=1}^N (x_i - \\overline{x})^2}\n\\tag{1}\\]",
+    "crumbs": [
+      "Quarto",
+      "01 Basic",
+      "Cross Reference"
+    ]
+  },
+  {
+    "objectID": "MATH.html",
+    "href": "MATH.html",
+    "title": "MATH LECTURE",
+    "section": "",
+    "text": "수학에 관한 재미있는 강의가 있으면 소개하는 섹션"
+  },
+  {
+    "objectID": "MATH_LEC/Master Math/Section3/23-intro-sympy.html",
+    "href": "MATH_LEC/Master Math/Section3/23-intro-sympy.html",
+    "title": "Sympy part 1",
+    "section": "",
+    "text": "Symbolic(기호)과 Numerical(숫자) 연산의 차이에 대해 생각해 보자\n\n\n\nSymbolic\nNumerical Value(정확도)\n\n\n\n\n\\(\\sqrt{2}\\)\n1.414213562373095\n\n\n\\(\\pi\\)\n3.141592653589793\n\n\n\\(\\cos{(\\frac{\\pi}{2})} = 0\\)\n6.123233995736766e-17\n\n\n\n\nimport sympy as sym\n\n\nx, y = sym.symbols(\"x, y\")\nx\n\n\\(\\displaystyle x\\)\n\n\n\ny+4\n\n\\(\\displaystyle y + 4\\)",
+    "crumbs": [
+      "Math",
+      "Master Math",
+      "Section3",
+      "Sympy part 1"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Curiosior",
+    "section": "",
+    "text": "This is a place where curiosity meets knowledge. Explore various topics and expand your understanding."
+  },
+  {
+    "objectID": "index.html#welcome-to-curiosior",
+    "href": "index.html#welcome-to-curiosior",
+    "title": "Curiosior",
+    "section": "",
+    "text": "This is a place where curiosity meets knowledge. Explore various topics and expand your understanding."
+  },
+  {
+    "objectID": "index.html#featured-topics",
+    "href": "index.html#featured-topics",
+    "title": "Curiosior",
+    "section": "Featured Topics",
+    "text": "Featured Topics\n\n\n\n\n\nQuarto\n\n\n\n\n\n\n\nCuriosities\n\n\n\n\n\n\n\nAbout"
+  }
+]
